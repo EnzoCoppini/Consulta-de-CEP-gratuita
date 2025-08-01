@@ -4,20 +4,9 @@ Este é um projeto Java com Spring Boot que fornece uma API REST para consultar 
 ### ✅ Pré-requisitos
 - Java 17 ou superior
 - Maven
-### ▶️ Passos
-1. Clone este repositório:
-```bash
-git clone https://github.com/seu-usuario/nome-do-repo.git
 ```
-2. Acesse a pasta do projeto:
-```bash
-cd nome-do-repo
-```
-3. Execute a aplicação com o Maven Wrapper:
-```bash
-./mvnw spring-boot:run
-```
-Ou, se preferir, importe o projeto em uma IDE (como IntelliJ ou Eclipse) e execute a classe `CepApplication.java`.
+Importe o projeto em uma IDE (como IntelliJ ou Eclipse) e execute a classe `CepApplication.java`.
+
 ## 🌐 Endpoint disponível
 ### `GET /cep-consulta/{cep}`
 Consulta os dados de um CEP utilizando a API ViaCEP.
